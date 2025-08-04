@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Matemasie&family=Rakkas&family=Rubik+Vinyl&family=Special+Gothic+Expanded+One&family=Zain:wght@200;300;400;700;800;900&display=swap');
+@import url('https://db.onlinewebfonts.com/c/11a601d89920b5e32fefdec8d90d228b?family=Copperplate+Gothic+Std+32+BC');
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondo{
+  background-image: url('./imagenes/derecha.jpg');
+  border-radius: 0 0 90px 90px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  background-size: auto; 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%; 
+  width: 100%;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1a1a1a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar .brand-select {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+ background-color: transparent;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.nav-links a:hover {
+  transform: scale(1.1);
+}
+
+.search-bar input {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 150px;
+}
+
+main
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  padding: 30px 40px;
+  margin-right: 20px;
+}
+
+section {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  grid-template-columns: 50px auto;
+}
+
+aside 
+{
+  color: white;
+  font-family: "fustat", serif;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  
+}
+
+aside h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.texto {
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.descargas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boton-descarga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#79bfbc;
+  color: #123b54;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  width: 320px; 
+  transition: background-color 0.3s ease;
+}
+
+.boton-descarga:hover {
+  background-color: #509895;
+}
+
+.icono {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.col{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: "fustast", "serif";
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  padding: 60px 80px;;
+  transition: transform 0.2s;
+}
+
+.tarjetas :hover {
+  transform: scale(1.03);
+}
+
+.tarjetas img{
+  padding-top: 20px;
+  padding-left: 5px;
+  width: 450px;
+}
+
+.card-overview {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-overview::part(base) {
+  background-color: #3e685f;
+  color: white;
+  border-radius: 50px; 
+  border: 4px solid #121122;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+}
+.card-overview strong{
+  font-size: 50px;
+}
+
+.card-overview small {
+  color: var(#121122);
+  font-size: 20px;
+}
+
+.card-overview [slot='footer'] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apoyo{
+  color: white;
+  text-align: center;
+}
+
+.apoyo strong{
+  padding-top: 50px;
+  font-size: 38px;
+  font-family: "fustat" , sans-serif;
+}
+
+.apoyo p{
+  padding: 10px;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  main {grid-template-columns: 1fr;}
+  nav ul {flex-direction: column;gap: 15px;}
+}
