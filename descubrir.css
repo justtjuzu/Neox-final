@@ -133,7 +133,7 @@ article:hover {
 }
 
 .cr img {
-  width: 1050px;
+  width: 900px;
   max-width: 1200px;
   height: auto;
   border-radius: 4px;
@@ -183,4 +183,5 @@ footer {
 @media (max-width: 768px) {
   main {grid-template-columns: 1fr;}
   nav ul {flex-direction: column;gap: 15px;}
+
 }
