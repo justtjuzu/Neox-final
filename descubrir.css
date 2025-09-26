@@ -101,9 +101,7 @@ section {
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.9);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  max-width: 100%;   
+  background-position: center;  
   height: auto;          
 }
 
@@ -182,3 +180,4 @@ footer {
   nav ul {flex-direction: column;gap: 15px;}
 
 }
+
