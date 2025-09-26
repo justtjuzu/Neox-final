@@ -104,8 +104,7 @@ section {
   background-position: center;
   background-size: 100%;
   max-width: 100%;   
-  height: auto;       
-  display: block;    
+  height: auto;          
 }
 
 section h2 {
@@ -129,15 +128,13 @@ article:hover {
 
 .cr {
   display: flex;
-  gap: 20px; 
+  gap: 10px; 
 }
 
 .cr img {
-  width: 900px;
-  max-width: 1200px;
-  height: auto;
-  border-radius: 4px;
-  display: block;   
+  width: 600px;
+  max-width: 900px;
+  border-radius: 4px;   
 }
 
 .text {
@@ -157,11 +154,11 @@ article:hover {
 }
 
 .text p {
-  padding-top: 20px;
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: right;
-  font-size: 50px;
+  font-size: 40px;
   margin: 50px;
 }
 
