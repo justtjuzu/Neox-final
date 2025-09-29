@@ -118,7 +118,7 @@ aside h2 {
 }
 
 .texto {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.5;
   margin-bottom: 25px;
 }
@@ -236,4 +236,5 @@ footer {
   main {grid-template-columns: 1fr;}
   nav ul {flex-direction: column;gap: 15px;}
 }
+
 
